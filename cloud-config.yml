@@ -1,0 +1,5 @@
+rancher:
+    network:
+        dns:
+            nameservers:
+              - 192.168.0.201
