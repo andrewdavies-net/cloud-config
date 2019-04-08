@@ -1,5 +1,6 @@
+#cloud-config
 rancher:
-    network:
-        dns:
-            nameservers:
-              - 192.168.0.201
+  network:
+    dns:
+      nameservers:
+      - 192.168.0.201
