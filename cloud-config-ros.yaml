@@ -1,0 +1,15 @@
+#cloud-config
+
+hostname: rancher
+
+rancher:
+  network:
+    interfaces:
+      eth*:
+       dhcp: false
+      eth0:
+       address: 10.10.1.15/24
+       gateway: 10.10.1.1
+    dns:
+     nameservers:
+      - 10.10.1.10
