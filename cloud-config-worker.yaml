@@ -1,8 +1,3 @@
 #cloud-config
-#runcmd:
-#  - apt-get update
-#  - apt-get install open-iscsi
-rancher:
-  console: ubuntu
 ssh_authorized_keys:
   - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYebWIuuhwjHl2CvpOqnrsxMWaaoIll+2ab5Poxb49FsC+YC712RdRu0lN9qLMFIsUzli9V75JaSTUnQUMFTVZoMX4wuQYv1YwpG8Hl7bGjDmOyxMBXXFHbuQepoFfXk3h1faDf/+wVgnCdh2DtcWHcfigqOOBpDVFbzbR/wGciKLF5VGt0lBisBkBN1ta1gjmLFcON/6csEaBBjHd9NjiTIC2vqiGjtY2DFItC37UnMYhaUgFAHVsIWn+26hTMcUrNgQs+/hRkioMPGALRWol3W4+hECUXH5dZ0Uq2p/VC6DkgQJJj0jSMtMiXfYJKU6Pr6s18vQNjz/e2xts3Wwx andrewdavies@Andrews-MacBook-Pro.local
