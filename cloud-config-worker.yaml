@@ -1,7 +1,7 @@
 #cloud-config
-runcmd:
-  - apt-get update
-  - apt-get install open-iscsi
+#runcmd:
+#  - apt-get update
+#  - apt-get install open-iscsi
 rancher:
   console: ubuntu
 ssh_authorized_keys:
