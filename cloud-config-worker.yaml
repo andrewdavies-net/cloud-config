@@ -1,4 +1,7 @@
 #cloud-config
+runcmd:
+  - apt-get update
+  - apt-get -y install open-iscsi
 rancher:
   console: ubuntu
   network:
